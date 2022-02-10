@@ -1,0 +1,57 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, $yashil, $yashil2),
+    url("../img/bor.jpg");
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  text-align: center;
+  color: $oq;
+  img {
+    display: block;
+    margin: 3rem 3rem;
+    width: 15rem;
+    animation-name: logo;
+    animation-duration: 3s;
+  }
+  .header__name {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    letter-spacing: 1rem;
+    animation-name: logname;
+    animation-duration: 3s;
+  }
+  .header__content--first {
+    text-align: center;
+    font-size: 3.2rem;
+    letter-spacing: 1rem;
+    animation-name: nicname;
+    animation-duration: 3s;
+  }
+  .header__content--last {
+    text-align: center;
+    font-size: 3.2rem;
+    letter-spacing: 1rem;
+    animation-name: nicname;
+    animation-duration: 3s;
+  }
+  a {
+    margin-top: 5rem;
+    width: 30rem;
+    height: 5rem;
+    background-color: $oq;
+    color: $qora;
+    border: none;
+    text-decoration: none;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    animation-name: button;
+    animation-duration: 3s;
+    display: inline-block;
+    position: relative;
+  }
+}
